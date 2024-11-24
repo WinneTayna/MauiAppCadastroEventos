@@ -66,6 +66,9 @@
 	  <MauiXaml Update="Views\CadastroEvento.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Confirmacao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\EventoCadastrado.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -30,7 +30,10 @@
                 <Label Text="Custo Total:" TextColor="#D5006D" />
                 <Label Text="{Binding CustoTotal, StringFormat='R$ {0:N2}'}" />
 
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
                 <Button Text="Voltar" TextColor="#FAFAFA" BackgroundColor="#D5006D" FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked" />
+                <Button Text="Confirmar" TextColor="#FAFAFA" BackgroundColor="#D5006D" FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked_1" />
+                </HorizontalStackLayout>
                 
             </VerticalStackLayout>
         </ScrollView>

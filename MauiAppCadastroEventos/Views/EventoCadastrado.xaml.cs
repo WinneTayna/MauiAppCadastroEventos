@@ -22,4 +22,8 @@ public partial class EventoCadastrado : ContentPage
             DisplayAlert("Ops", ex.Message, "Ok");
         }
     }
-}
+        private async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Confirmacao());
+        }
+    }

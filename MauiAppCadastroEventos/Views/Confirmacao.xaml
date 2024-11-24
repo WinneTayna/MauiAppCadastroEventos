@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppCadastroEventos.Views.Confirmacao"
+             Title=""
+             BackgroundColor="#FAFAFA">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout VerticalOptions="CenterAndExpand">
+                <Label Text="Evento Cadastrado com Sucesso!" TextColor="#D5006D" FontSize="20" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                </VerticalStackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+</ContentPage>
