@@ -1,0 +1,39 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppCadastroEventos.Views.CadastroEvento"
+             Title=""
+             BackgroundColor="#FAFAFA">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20" Spacing="15">
+                <Label Text="Cadastro de Evento" TextColor="#D5006D" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" Padding="0,0,0,20" />
+
+                <Label Text="Nome do Evento" TextColor="#D5006D" />
+                <Entry x:Name="NomeEntry" Placeholder="Informe o nome do evento" PlaceholderColor="#A9A9A9" />
+
+                <Label Text="Data de Início" TextColor="#D5006D" />
+                <DatePicker x:Name="DataInicioPicker"
+                            Format="dd/MM/yyyy" 
+                            DateSelected="OnDataInicioChanged" />
+
+                <Label Text="Data de Término" TextColor="#D5006D" />
+                <DatePicker x:Name="DataTerminoPicker"
+                            Format="dd/MM/yyyy" />
+
+                <Label Text="Número de Participantes" TextColor="#D5006D" />
+                <Entry x:Name="NumeroParticipantesEntry" 
+                       Keyboard="Numeric" Placeholder="Informe o número de participantes" PlaceholderColor="#A9A9A9" />
+
+                <Label Text="Local do Evento" TextColor="#D5006D" />
+                <Entry x:Name="LocalEntry" Placeholder="Informe o local do evento" PlaceholderColor="#A9A9A9" />
+
+                <Label Text="Custo por Participante" TextColor="#D5006D" />
+                <Entry x:Name="CustoPorParticipanteEntry" 
+                       Keyboard="Numeric" Placeholder="Informe o custo por participante" PlaceholderColor="#A9A9A9" />
+
+                <Button Text="Cadastrar" Clicked="OnCadastrarClicked" BackgroundColor="#D5006D" TextColor="#FAFAFA" FontAttributes="Bold" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
