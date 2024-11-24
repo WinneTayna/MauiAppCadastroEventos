@@ -6,8 +6,8 @@
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="20" Spacing="15">
-                <Label Text="Resumo do Evento" TextColor="#D5006D" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" />
+            <VerticalStackLayout Padding="40" Spacing="10">
+                <Label Text="Resumo do Evento" TextColor="#D5006D" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" Padding="20,0,0,30" />
 
                 <Label Text="Nome:" TextColor="#D5006D" />
                 <Label Text="{Binding Nome}" />
@@ -29,7 +29,10 @@
 
                 <Label Text="Custo Total:" TextColor="#D5006D" />
                 <Label Text="{Binding CustoTotal, StringFormat='R$ {0:N2}'}" />
-            </StackLayout>
+
+                <Button Text="Voltar" TextColor="#FAFAFA" BackgroundColor="#D5006D" FontAttributes="Bold" HorizontalOptions="Center" Clicked="Button_Clicked" />
+                
+            </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

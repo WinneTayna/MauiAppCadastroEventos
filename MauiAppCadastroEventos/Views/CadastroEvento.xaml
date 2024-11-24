@@ -6,7 +6,7 @@
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="20" Spacing="15">
+            <StackLayout Padding="20" Spacing="10">
                 <Label Text="Cadastro de Evento" TextColor="#D5006D" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" Padding="0,0,0,20" />
 
                 <Label Text="Nome do Evento" TextColor="#D5006D" />
